@@ -1,0 +1,152 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.container {
+    width: 900px;
+    margin: auto;
+  }
+
+  .banner {
+    /* background-image: url(https://youtu.be/ZfCRQV15AFo); */
+    background-size: cover;
+    background-position: center;
+    padding: 200px 0;
+  }
+
+  .banner h1 {
+    color: rgb(240, 12, 12);
+    font-weight: bold;
+    text-shadow: #FC0 1px 0 10px;
+    text-align: center;
+  }
+
+  .banner p {
+    color: rgb(20, 153, 230);
+    opacity: 5;
+    font-size: 40px;
+    text-align: center;
+    font-weight: bold;
+    text-shadow: 1px 1px 2px #110f0f;
+  }
+
+  .btn-primary {
+    display: inline-block;
+    background-color: #1EDD88;
+    padding: 16px 36px;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    left: 45%;
+  }
+
+  .btn-secondary {
+    border: 1px solid #1EDD88;
+    padding: 8px 16px;
+    border-radius: 50px;
+    color: #1EDD88;
+  }
+
+
+  .card img {
+    height: 100px;
+  }
+
+  .card p {
+    opacity: .5;
+  }
+
+  .card {
+    width: 200px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230,230,230);
+    text-align: center;
+    padding: 20px;
+    border: 1px solid rgb(230,230,230);
+  }
+
+  .cards {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .footer {
+    text-align: center;
+    padding: 60px;
+    background-color: #2c2b2b;
+  }
+
+  .footer a {
+    font-size: 30px;
+    color:  #1EDD88;
+  }
+
+  .footer p {
+    color: #6B6C6C;
+    display: contents;
+
+  }
+
+  .footer .fas {
+    color: #BF0F12;
+  }
+  #background-video {
+    width: 100vw;
+    height: 32vw;
+    object-fit: cover;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+  }
+  .container h2{
+      text-align: center;
+      margin-bottom: 50px;
+      margin-top: -75px;
+  }
+.links img{
+    height: 35px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+  }
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+  }
+
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
