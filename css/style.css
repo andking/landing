@@ -54,7 +54,7 @@ a {
     border-radius: 50px;
     color: white;
     position: absolute;
-    left: 45%;
+    left: 47%;
   }
 
   .btn-secondary {
@@ -110,7 +110,7 @@ a {
   }
   #background-video {
     width: 100vw;
-    height: 32vw;
+    height: 22vw;
     object-fit: cover;
     position: absolute;
     left: 0;
@@ -149,4 +149,58 @@ a {
 
   .tooltip:hover .tooltiptext {
     visibility: visible;
+}
+
+@media(max-width: 900px){
+    #background-video{
+        height: 58vw;
+
+    }
+    .btn-primary{
+        left: 3%;
+        top: 51%;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: 30px; */
+        margin: 30px;
+    }
+}
+@media(max-width: 750px){
+    #background-video{
+        height: 69vw;
+        margin: 0;
+        width: auto;
+    }
+    .btn-primary{
+        left: 3%;
+        top: 51%;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: 30px; */
+        margin: 30px;
+    }
+    .footer{
+        width:900px;
+    }
+}
+
+@media(min-width: 1200px){
+    #background-video{
+        height: 58vw;
+
+    }
+    .btn-primary{
+        left: 3%;
+        top: 51%;
+    }
+    .cards{
+        display: flex;
+        justify-content: space-between;
+        /* margin-bottom: 30px; */
+        margin: 30px;
+    }
 }
