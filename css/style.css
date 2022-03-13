@@ -151,21 +151,29 @@ a {
     visibility: visible;
 }
 
-@media(min-width: 900px){
+@media(max-width: 900px){
     #background-video{
         height: 46vw;
         object-fit: cover;
 
     }
+    .banner h1{
+      margin-top: -61px;
+      padding-right: 0;
+    }
+    .banner p{
+      padding-right: 8px;
+    }
     .btn-primary{
-        left: 47%;
-        top: 37%;
+      left: 2%;
+      top: 30%;
     }
     .footer {
         text-align: center;
-        padding: 9vh;
+        padding: 13vh;
         background-color: #2c2b2b;
         /* min-height: 4vh; */
+
     }
     .cards{
         display: flex;
@@ -173,16 +181,26 @@ a {
         /* margin-bottom: 30px; */
         margin: 30px;
     }
+    .banner{
+      padding: 162px 0;
+    }
+    .container{
+      margin-left: -18px;
+      width: 870px;
+    }
 }
 @media(max-width: 750px){
+  .body{
+    width: 900px;
+  }
     #background-video{
         height: 69vw;
         margin: 0;
         width: 120vh;
     }
     .btn-primary{
-        left: 3%;
-        top: 51%;
+      left: 78%;
+      top: 37%;
     }
     .cards{
         display: flex;
@@ -191,31 +209,30 @@ a {
         margin: 30px;
     }
     .footer{
-        width:900px;
+        width:1200px;
+
     }
     .banner h1 {
-        padding-left: 100px;
+        padding-left: 15px;
     }
     .banner p{
-        padding-left: 100px;
+        padding-left: 16px;
     }
     .container {
-        width: 1000px;
+        width: 1300px;
         margin: auto;
 }
-.footer {
-    padding: 11vh;
+
 }
-}
-@media(min-width: 1200px){
+@media(max-width: 1200px){
     #background-video{
-        height: 46vw;
+        height: 22vw;
         object-fit: cover;
 
     }
     .btn-primary{
-        left: 42%;
-        top: 52%;
+        left: 47%;
+        top: 36%;
     }
     .footer {
         text-align: center;
@@ -229,4 +246,8 @@ a {
         /* margin-bottom: 30px; */
         margin: 30px;
     }
+    .container {
+      width: 1300px;
+      margin: auto;
+}
 }
